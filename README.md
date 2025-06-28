@@ -52,3 +52,15 @@ export default tseslint.config({
   },
 })
 ```
+
+
+こんなふうに`.env`ファイルを作成して打ち込んでね
+```
+FIREBASE_API_KEY=""
+FIREBASE_AUTH_DOMAIN=""
+FIREBASE_PROJECT_ID=""
+FIREBASE_STORAGE_BUCKET=""
+FIREBASE_MESSAGING_SENDER_ID=""
+FIREBASE_APP_ID=""
+FIREBASE_MEASUREMENT_ID=""
+```
