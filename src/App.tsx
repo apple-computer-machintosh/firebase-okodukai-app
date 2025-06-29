@@ -11,6 +11,7 @@ import {
   Timestamp,
 } from "firebase/firestore";
 import "./App.css";
+import M3Design from "./components/M3Design";
 
 type Expense = {
   amount: number;
@@ -157,4 +158,5 @@ function App() {
   );
 }
 
-export default App;
+// export default App;
+export default M3Design;
